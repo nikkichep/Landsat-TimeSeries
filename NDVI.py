@@ -46,7 +46,7 @@ proj = inDS.GetProjection()
 # In[59]:
 
 
-outRaster = str('path to store the NDVI file')
+outRaster = str('store the NDVI file')
 driver=inDS.GetDriver()
 outDS = driver.Create(outRaster, b,a, 1,datatype)
 geoTransform = inDS.GetGeoTransform()
