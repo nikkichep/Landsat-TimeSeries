@@ -44,7 +44,7 @@ n_samples
 
 
 labels = np.unique(output_imgarr[output_imgarr > 0])
-print('The training data include {n} classes: {classes}'.format(n=labels.size, 
+print('The training data includes {n} classes: {classes}'.format(n=labels.size, 
                                                                 classes=labels))
 
 
